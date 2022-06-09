@@ -1,4 +1,5 @@
-.vscode
-.vscode/**
-.cph
-.cph/**
+# Ignore everything but c++ and essential files
+*
+!*.cpp
+!*.md
+!.gitignore
