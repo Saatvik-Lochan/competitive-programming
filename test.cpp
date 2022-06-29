@@ -1,17 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool woah(int arr[], int n){
+    for (int i = 0; i < n; i++) cout << arr[i] << "\n";
+    return true;
+}
+
 int main()
 {
-    int t;
-    cin >> t;
-    int i = 0;
-    while(++i) {
-        int a, b;
-        cin >> a >> b;
+    int s[] = {5, 5, 5, 2, 3, 34, 2, 4, 2};
+    int n = 9;
 
-        if (i == 42) {
-            cout << "answer: " << a << " " << b << endl; 
-        }
-    }
-}
+    woah(s, n);
+}   
