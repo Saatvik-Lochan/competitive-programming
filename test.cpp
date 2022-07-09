@@ -8,8 +8,7 @@ bool woah(int arr[], int n){
 
 int main()
 {
-    int s[] = {5, 5, 5, 2, 3, 34, 2, 4, 2};
-    int n = 9;
-
-    woah(s, n);
+    for (int i = 1; i <= 200000; i++) {
+        cout << i << " ";
+    }
 }   
