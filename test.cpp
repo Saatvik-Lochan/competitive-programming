@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <numeric>
+#include <iostream>
 using namespace std;
 
 bool woah(int arr[], int n){
@@ -8,7 +10,5 @@ bool woah(int arr[], int n){
 
 int main()
 {
-    for (int i = 1; i <= 200000; i++) {
-        cout << i << " ";
-    }
+    cout << lcm(3);
 }   
